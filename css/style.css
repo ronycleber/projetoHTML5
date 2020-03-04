@@ -22,6 +22,9 @@ li{
 
 #header{
     border-bottom: 1px solid black;
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
 }
 
 #banner{
@@ -34,6 +37,74 @@ li{
 }
 
 #banner p{
-    padding-top: 290px;
+    margin: 0;
+    padding-top: 250px;
+    font-size: 17px;
 }
 
+#banner h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 15px;
+}
+
+#banner button {
+    padding: 10px;
+    border-radius: 28px;
+    background-color: rebeccapurple;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+}
+
+#banner button:hover {
+    background: yellow;
+}
+
+#imagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#imagens .imagens{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.imagens{
+    height: 250px;
+    width: 375px;
+    margin: 10px;
+}
+
+.imagens button{
+   height: 40px;
+   margin-bottom: 15px;
+}
+
+#imagem1{
+    background-image: url(../img/product-1.jpg);
+    background-size: cover;
+}
+#imagem2{
+    background-image: url(../img/product-2.jpg);
+    background-size: cover;
+}
+#imagem3{
+    background-image: url(../img/product-3.jpg);
+    background-size: cover;
+}
+#imagem4{
+    background-image: url(../img/product-4.jpg);
+    background-size: cover;
+}
+#imagem5{
+    background-image: url(../img/product-5.jpg);
+    background-size: cover;
+}
+#imagem6{
+    background-image: url(../img/product-6.jpg);
+    background-size: cover;
+}
